@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Three.js Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/animate.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Header Section -->
+  <header class="bg-gray-800 text-white py-6">
+    <div class="container mx-auto flex justify-between items-center">
+      <img src="logo.png" alt="Logo" class="w-8 h-8">
+      <nav>
+        <a href="#" class="text-gray-300 hover:text-white px-4">Home</a>
+        <a href="#" class="text-gray-300 hover:text-white px-4">About</a>
+        <a href="#" class="text-gray-300 hover:text-white px-4">Portfolio</a>
+        <a href="#" class="text-gray-300 hover:text-white px-4">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero bg-cover bg-center py-32"
+    style="background-image:url('https://source.unsplash.com/featured/1280x720/?webdesign')">
+    <div class="container mx-auto text-center">
+      <h1 class="text-4xl font-bold text-white mb-4">Welcome to my Three.js Portfolio</h1>
+      <a href="#" class="bg-blue-500 hover:bg-blue-600 text-white font-semibold px-6 py-3 rounded">Call to Action</a>
+    </div>
+  </section>
+
+  <!-- Feature Section -->
+  <section class="py-16">
+    <div class="container mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-8">Standout Features</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Feature Card 1 -->
+        <div class="rounded shadow-md p-6">
+          <i class="fas fa-chart-bar text-6xl text-blue-600"></i>
+          <h3 class="text-xl font-semibold mt-4 mb-2">Data Visualization</h3>
+          <p class="text-gray-500">Visualize complex data in an interactive way.</p>
+        </div>
+        <!-- Feature Card 2 -->
+        <div class="rounded shadow-md p-6">
+          <i class="fas fa-cube text-6xl text-yellow-500"></i>
+          <h3 class="text-xl font-semibold mt-4 mb-2">3D Modeling</h3>
+          <p class="text-gray-500">Create stunning 3D models and animations.</p>
+        </div>
+        <!-- Feature Card 3 -->
+        <div class="rounded shadow-md p-6">
+          <i class="fas fa-code text-6xl text-green-600"></i>
+          <h3 class="text-xl font-semibold mt-4 mb-2">Web Development</h3>
+          <p class="text-gray-500">Build interactive websites and web applications.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Individual Feature Sections -->
+  <section class="bg-gray-100 py-16">
+    <div class="container mx-auto">
+      <!-- Feature Section 1 -->
+      <div class="flex flex-col-reverse md:flex-row items-center mb-12">
+        <div class="md:w-1/2">
+          <img src="https://source.unsplash.com/featured/1280x720/?visualization" alt="Visualization"
+            class="w-full rounded-lg">
+        </div>
+        <div class="md:w-1/2 md:pl-8">
+          <h2 class="text-2xl font-bold mb-4">Data Visualization</h2>
+          <p class="text-gray-700 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean aliquam
+            magna vitae
+            ultrices eleifend. Nunc nec sapien faucibus nisi facilisis bibendum. Maecenas aliquam massa vitae
+            ipsum
+            scelerisque, vitae faucibus metus dapibus.</p>
+          <a href="#" class="text-blue-500 hover:text-blue-600">Read More</a>
+        </div>
+      </div>
+      <!-- Feature Section 2 -->
+      <div class="flex flex-col-reverse md:flex-row items-center mb-12">
+        <div class="md:w-1/2">
+          <img src="https://source.unsplash.com/featured/1280x720/?modeling" alt="Modeling"
+            class="w-full rounded-lg">
+        </div>
+        <div class="md:w-1/2 md:pl-8">
+          <h2 class="text-2xl font-bold mb-4">3D Modeling</h2>
+          <p class="text-gray-700 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean aliquam
+            magna vitae
+            ultrices eleifend. Nunc nec sapien faucibus nisi facilisis bibendum. Maecenas aliquam massa vitae
+            ipsum
+            scelerisque, vitae faucibus metus dapibus.</p>
+          <a href="#" class="text-blue-500 hover:text-blue-600">Read More</a>
+        </div>
+      </div>
+      <!-- Feature Section 3 -->
+      <div class="flex flex-col-reverse md:flex-row items-center mb-12">
+        <div class="md:w-1/2">
+          <img src="https://source.unsplash.com/featured/1280x720/?webdevelopment" alt="Web Development"
+            class="w-full rounded-lg">
+        </div>
+        <div class="md:w-1/2 md:pl-8">
+          <h2 class="text-2xl font-bold mb-4">Web Development</h2>
+          <p class="text-gray-700 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean aliquam
+            magna vitae
+            ultrices eleifend. Nunc nec sapien faucibus nisi facilisis bibendum. Maecenas aliquam massa vitae
+            ipsum
+            scelerisque, vitae faucibus metus dapibus.</p>
+          <a href="#" class="text-blue-500 hover:text-blue-600">Read More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonial Section -->
+  <section class="bg-gray-200 py-16">
+    <div class="container mx-auto">
+      <h2 class="text-3xl font-bold text-center mb-8">Testimonials</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div class="bg-white shadow-md p-6">
+          <i class="fas fa-quote-left text-2xl text-gray-700 mb-4"></i>
+          <p class="text-gray-700 mb-4">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean aliquam magna
+            vitae
+            ultrices eleifend."</p>
+          <p class="font-semibold">John Doe</p>
+          <p class="text-gray-500">CEO, Company XYZ</p>
+        </div>
+        <div class="bg-white shadow-md p-6">
+          <i class="fas fa-quote-left text-2xl text-gray-700 mb-4"></i>
+          <p class="text-gray-700 mb-4">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean aliquam magna
+            vitae
+            ultrices eleifend."</p>
+          <p class="font-semibold">Jane Smith</p>
+          <p class="text-gray-500">CTO, Company ABC</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Blog Section -->
+  <section class="py-16">
+    <div class="container mx-auto">
+      <h2 class="text-3xl font-bold text-center mb-8">Recent Blog Posts</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="bg-white shadow-md p-6">
+          <h3 class="text-xl font-semibold mb-4">Blog Post 1</h3>
+          <p class="text-gray-700 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean aliquam magna
+            vitae
+            ultrices eleifend. Nunc nec sapien faucibus nisi facilisis bibendum.</p>
+          <a href="#" class="text-blue-500 hover:text-blue-600">Read More</a>
+        </div>
+        <div class="bg-white shadow-md p-6">
+          <h3 class="text-xl font-semibold mb-4">Blog Post 2</h3>
+          <p class="text-gray-700 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean aliquam magna
+            vitae
+            ultrices eleifend. Nunc nec sapien faucibus nisi facilisis bibendum.</p>
+          <a href="#" class="text-blue-500 hover:text-blue-600">Read More</a>
+        </div>
+        <div class="bg-white shadow-md p-6">
+          <h3 class="text-xl font-semibold mb-4">Blog Post 3</h3>
+          <p class="text-gray-700 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean aliquam magna
+            vitae
+            ultrices eleifend. Nunc nec sapien faucibus nisi facilisis bibendum.</p>
+          <a href="#" class="text-blue-500 hover:text-blue-600">Read More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="bg-gray-200 py-16">
+    <div class="container mx-auto">
+      <h2 class="text-3xl font-bold text-center mb-8">Frequently Asked Questions</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div class="bg-white shadow-md p-6">
+          <h3 class="text-xl font-semibold mb-2">Question 1?</h3>
+          <p class="text-gray-700 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h3 class="text-xl font-semibold mb-2">Question 2?</h3>
+          <p class="text-gray-700 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="bg-white shadow-md p-6">
+          <h3 class="text-xl font-semibold mb-2">Question 3?</h3>
+          <p class="text-gray-700 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h3 class="text-xl font-semibold mb-2">Question 4?</h3>
+          <p class="text-gray-700 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team Section -->
+  <section class="py-16">
+    <div class="container mx-auto">
+      <h2 class="text-3xl font-bold text-center mb-8">Our Team</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="bg-white shadow-md p-6 text-center">
+          <img src="team-member-1.jpg" alt="Team Member 1" class="w-32 h-32 rounded-full mx-auto mb-4">
+          <h3 class="text-xl font-semibold mb-2">John Doe</h3>
+          <p class="text-gray-700 mb-2">Designer</p>
+          <div class="flex justify-center">
+            <a href="#" class="text-blue-500 hover:text-blue-600 mx-1"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="text-blue-500 hover:text-blue-600 mx-1"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="text-blue-500 hover:text-blue-600 mx-1"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+        <div class="bg-white shadow-md p-6 text-center">
+          <img src="team-member-2.jpg" alt="Team Member 2" class="w-32 h-32 rounded-full mx-auto mb-4">
+          <h3 class="text-xl font-semibold mb-2">Jane Smith</h3>
+          <p class="text-gray-700 mb-2">Developer</p>
+          <div class="flex justify-center">
+            <a href="#" class="text-blue-500 hover:text-blue-600 mx-1"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="text-blue-500 hover:text-blue-600 mx-1"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="text-blue-500 hover:text-blue-600 mx-1"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+        <div class="bg-white shadow-md p-6 text-center">
+          <img src="team-member-3.jpg" alt="Team Member 3" class="w-32 h-32 rounded-full mx-auto mb-4">
+          <h3 class="text-xl font-semibold mb-2">Mike Johnson</h3>
+          <p class="text-gray-700 mb-2">Marketing</p>
+          <div class="flex justify-center">
+            <a href="#" class="text-blue-500 hover:text-blue-600 mx-1"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="text-blue-500 hover:text-blue-600 mx-1"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="text-blue-500 hover:text-blue-600 mx-1"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter Subscription Section -->
+  <section class="bg-gray-800 py-16">
+    <div class="container mx-auto">
+      <h2 class="text-3xl font-bold text-center text-white mb-8">Subscribe to Our Newsletter</h2>
+      <div class="max-w-lg mx-auto">
+        <form class="flex justify-center">
+          <input type="email" class="bg-white rounded-l py-2 px-4 w-full" placeholder="Enter your email address">
+          <button type="submit" class="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-6 rounded-r">
+            Subscribe
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Form Section -->
+  <section class="py-16">
+    <div class="container mx-auto">
+      <h2 class="text-3xl font-bold text-center mb-8">Contact Us</h2>
+      <div class="max-w-lg mx-auto">
+        <form>
+          <div class="mb-4">
+            <label for="name" class="block text-gray-700 font-bold mb-2">Name:</label>
+            <input type="text" id="name" class="bg-white rounded w-full py-2 px-4" placeholder="Enter your name">
+          </div>
+          <div class="mb-4">
+            <label for="email" class="block text-gray-700 font-bold mb-2">Email:</label>
+            <input type="email" id="email" class="bg-white rounded w-full py-2 px-4" placeholder="Enter your email">
+          </div>
+          <div class="mb-4">
+            <label for="message" class="block text-gray-700 font-bold mb-2">Message:</label>
+            <textarea id="message" class="bg-white rounded w-full py-2 px-4 h-32"
+              placeholder="Enter your message"></textarea>
+          </div>
+          <button type="submit"
+            class="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-6 rounded">
+            Submit
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Map Section -->
+  <section class="py-16">
+    <div class="container mx-auto">
+      <h2 class="text-3xl font-bold text-center mb-8">Location</h2>
+      <div
+        class="bg-gray-300 h-64 rounded-lg overflow-hidden"
+        id="map"
+      ></div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="bg-gray-800 text-white py-6">
+    <div class="container mx-auto flex justify-center">
+      <a href="#" class="text-gray-300 hover:text-white mx-4"><i class="fab fa-twitter"></i></a>
+      <a href="#" class="text-gray-300 hover:text-white mx-4"><i class="fab fa-linkedin"></i></a>
+      <a href="#" class="text-gray-300 hover:text-white mx-4"><i class="fab fa-github"></i></a>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_GOOGLE_MAPS_API_KEY&callback=initMap" async
+    defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"></script>
+  <script>
+    function initMap() {
+      // Initialize Google Maps here
+    }
+  </script>
+  <script>
+    $(document).ready(function () {
+      // Add smooth scroll and other interactivity here
+    });
+  </script>
+
+</body>
+
+</html>
